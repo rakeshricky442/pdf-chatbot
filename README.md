@@ -2,7 +2,7 @@
 
 An AI-powered chatbot that lets you upload any PDF and ask questions about it in natural language. Answers come **only from your document** — no hallucination.
 
-> 🚀 **Live Demo:** [your-app-url.streamlit.app](https://your-app-url.streamlit.app)
+> 🚀 **Live Demo:** https://pdf-chatbot-fl4dxxkogqqsvfhadxrhvj.streamlit.app/
 
 ---
 
