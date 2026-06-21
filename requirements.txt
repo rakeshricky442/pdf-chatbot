@@ -1,22 +1,10 @@
-# PDF Q&A Chatbot — Python Dependencies
-# Install all with: pip install -r requirements.txt
-
-# ── Core framework ──────────────────────────────────────────
-streamlit==1.35.0               # Web UI framework
-
-# ── LangChain ecosystem ─────────────────────────────────────
-langchain==0.2.5                # Main LangChain library
-langchain-community==0.2.5      # Community integrations (FAISS, PyPDFLoader)
-langchain-google-genai==1.0.6   # Google Gemini integration for LangChain
-
-# ── Google Gemini API ────────────────────────────────────────
-google-generativeai==0.7.1      # Official Google Generative AI SDK
-
-# ── Vector storage ───────────────────────────────────────────
-faiss-cpu==1.8.0                # Facebook AI Similarity Search (CPU version)
-
-# ── PDF reading ──────────────────────────────────────────────
-pypdf==4.2.0                    # PDF parsing library
-
-# ── Utilities ────────────────────────────────────────────────
-python-dotenv==1.0.1            # Load .env file for local development
+streamlit==1.35.0
+langchain==0.2.5
+langchain-community==0.2.5
+langchain-google-genai==1.0.6
+google-generativeai==0.5.4
+faiss-cpu
+pypdf==4.2.0
+python-dotenv==1.0.1
+sentence-transformers
+langchain-text-splitters==0.2.4
