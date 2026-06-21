@@ -22,3 +22,6 @@ Thumbs.db
 # ─── Temp files ───────────────────────────────────────────────
 *.tmp
 *.log
+secrets.toml
+.streamlit/secrets.toml
+.idea/
