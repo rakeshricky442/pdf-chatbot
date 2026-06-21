@@ -40,42 +40,6 @@ User Question → Embed Question → FAISS finds top 4 chunks → Gemini answers
 
 ---
 
-## 🚀 Local Setup
-
-```bash
-# Clone the repo
-git clone https://github.com/rakeshricky442/pdf-chatbot.git
-cd pdf-chatbot
-
-# Create virtual environment
-python -m venv .venv
-source .venv/bin/activate  # Mac/Linux
-
-# Install dependencies
-pip install -r requirements.txt
-pip install sentence-transformers
-
-# Add your Gemini API key
-mkdir .streamlit
-echo 'GEMINI_API_KEY = "your_key_here"' > .streamlit/secrets.toml
-
-# Run the app
-streamlit run app.py
-```
-
-Get a free Gemini API key at **[aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)**
-
----
-
-## ☁️ Deploy on Streamlit Cloud
-
-1. Fork this repo
-2. Go to **[share.streamlit.io](https://share.streamlit.io)**
-3. Connect your GitHub repo
-4. Add `GEMINI_API_KEY` in Secrets settings
-5. Deploy!
-
----
 
 ## 📁 Project Structure
 
