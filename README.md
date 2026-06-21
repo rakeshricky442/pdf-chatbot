@@ -91,5 +91,5 @@ pdf-chatbot/
 
 ## 👤 Author
 
-**Rakesh** | B.Tech IT | Netsmartz Academy — Data Science & ML  
+**Rakesh** 
 🌐 [Portfolio](https://rakeshricky442.github.io) · [LinkedIn](#) · [GitHub](https://github.com/rakeshricky442)
